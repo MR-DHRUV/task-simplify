@@ -1,0 +1,24 @@
+.tasks{
+    overflow-y: scroll;
+    height: 50vh !important;
+}
+
+.mybg {
+    background-color: #e7e7e7;
+    height: 100vh !important;
+}
+
+input[type=checkbox] {
+    --scale : 1.5;
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(scale);
+    /* IE */
+    -moz-transform: scale(scale);
+    /* FF */
+    -webkit-transform: scale(scale);
+    /* Safari and Chrome */
+    -o-transform: scale(scale);
+    /* Opera */
+    transform: scale(scale);
+    padding: 10px;
+}
