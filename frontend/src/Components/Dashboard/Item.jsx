@@ -80,7 +80,7 @@ const Item = (props) => {
                             type="text"
                             name="data"
                             placeholder='Whats on your mind...'
-                            className='form-control'
+                            className='form-control no-shadow'
                             value={task.data}
                             onChange={onChange}
                         />
@@ -90,7 +90,7 @@ const Item = (props) => {
                             type="number"
                             name="priority"
                             placeholder='Priority'
-                            className='form-control'
+                            className='form-control no-shadow'
                             value={task.priority}
                             onChange={onChange}
                         />
@@ -99,7 +99,7 @@ const Item = (props) => {
                         <input
                             type="date"
                             name="due"
-                            className='form-control'
+                            className='form-control no-shadow'
                             value={task.due ? task.due.split('T')[0] : ""}
                             onChange={onChange}
                         />
@@ -107,7 +107,7 @@ const Item = (props) => {
                     <div className="col-1">
                         <button
                             name='add'
-                            className="form-control btn btn-primary"
+                            className="form-control btn btn-primary no-shadow"
                             onClick={updateTask}
                         >Update
                         </button>

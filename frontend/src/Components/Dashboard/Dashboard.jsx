@@ -193,7 +193,7 @@ const Dashboard = () => {
                             />
                         </div>
                         <div className="col-2">
-                            <label htmlFor="add" className='form-label'>&nsbp;</label>
+                            <label htmlFor="add" className='form-label mytxt'>&nsbp;</label>
                             <button
                                 name='add'
                                 className="form-control btn btn-primary"

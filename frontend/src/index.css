@@ -8,6 +8,14 @@
     height: 100vh !important;
 }
 
+.mytxt{
+    color:#e7e7e7;
+}
+
+.no-shadow:focus {
+    box-shadow: none !important;
+}
+
 input[type=checkbox] {
     --scale : 1.5;
     /* Double-sized Checkboxes */
