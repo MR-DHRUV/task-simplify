@@ -93,7 +93,6 @@ export default function SignIn() {
                             className="btn btn-danger w-100 mb-3 d-flex align-items-center justify-content-center"
                             onClick={() => {
                                 let REDIRET_URI = window.location.href.split('/').slice(0, 3).join('/') + '/handler';
-                                console.log(REDIRET_URI)
                                 window.location.href = `${url}/auth/google?url=${REDIRET_URI}`
                             }}
                         >
