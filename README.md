@@ -6,6 +6,8 @@ The app supports two types of authentication, email based and Google Oauth based
 
 I have used Node.js as javascript runtime environment and Express.js as the backend framework. I have used MongoDB as the database, JWT for token based authentication, passport.js for Google OAuth 2.0 authentication and nodemailer for sending emails.
 
+<strong>The backend is hosted on Microsoft Azure and it may take a few seconds to load the first time due to cold start.<strong>
+
 - For email based authentication, I have implemented two factor authentication that sends an OTP to the user's email for verification using nodemailer..
 - I have also implemented real time email notifications for all account activities, including login events, password modifications etc.
 - For the Google-based authentication, I have used Google OAuth 2.0 to authenticate users, whenever a google based authentication is triggered, the API redirects the user to the google login page and after successful login, the user is redirected back to the specified URL given to the API in the initial request with an authToken as a query parameter. This authToken can be interchanged with backend to obtain user details and perform further actions.
